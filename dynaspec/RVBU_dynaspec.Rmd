@@ -16,7 +16,7 @@ library (viridis)
 RVBU_song <- read_wave ("dynaspec/RVBU_song.wav") #your audio file- wave file
 
 scrolling_spectro(wave = RVBU_song, wl = 500, 
-              t.display = 1.7, pal = viridis, 
+              t.display = 2.2, pal = viridis, 
               grid = FALSE, flim = c(1, 4), 
               width = 1000, height = 500, colbg = "black",
               res = 120, file.name = "RVBU_song.mp4", osc = TRUE, colwave = "darkgreen")
@@ -27,7 +27,7 @@ scrolling_spectro(wave = RVBU_song, wl = 500,
 RVBU_call <- read_wave ("dynaspec/RVBU_call.wav") #your audio file- wave file
 
 scrolling_spectro(wave = RVBU_call, wl = 500, 
-              t.display = 1.7, pal = viridis, 
+              t.display = 2.3, pal = viridis, 
               grid = FALSE, flim = c(2, 4), 
               width = 1000, height = 500, colbg = "black",
               res = 120, file.name = "RVBU_call.mp4", osc = TRUE, colwave = "darkgreen")
