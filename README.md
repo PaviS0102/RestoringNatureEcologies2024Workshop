@@ -3,7 +3,7 @@ This repository contains the script, resources, and slides for a workshop on 'Us
 
 **Details:**
 
-In this workshop, I will provide a brief introduction to acoustic technology and will present a study that uses such passive acoustic monitoring data to understand the impacts of restoration through the removal of the invasive shrub, _Lantana camara_, on the vocal behaviour of red-vented bulbul in a tropical dry forest in central India.
+In this workshop, I will provide a brief introduction to acoustic technology and will present a study that uses such passive acoustic monitoring data to understand the impacts of restoration through the removal of the invasive shrub, _Lantana camara_, on the vocal behaviour of red-vented bulbuls in a tropical dry forest in central India.
 
 **Link to the article:**
 
