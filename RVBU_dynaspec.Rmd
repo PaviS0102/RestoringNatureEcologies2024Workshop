@@ -1,0 +1,37 @@
+# Creating dynamic spectrograms on R
+
+##In this script, we code for dynamic visualizations of spectrograms of red-vented bulbul vocalizations. Before running this script, be sure to install FFMPEG (https://ffmpeg.org/download.html). 
+
+#Loading required packages
+```{r}
+library (dynaSpec)
+library (tuneR)
+library (warbleR)
+library (seewave)
+library (viridis)
+```
+
+#Creating dynamic spectrogram of RVBU song
+```{r}
+RVBU_song <- read_wave ("dynaspec/RVBU_song.wav") #your audio file- wave file
+
+scrolling_spectro(wave = RVBU_song, wl = 500, 
+              t.display = 1.7, pal = viridis, 
+              grid = FALSE, flim = c(1, 4), 
+              width = 1000, height = 500, colbg = "black",
+              res = 120, file.name = "RVBU_song.mp4", osc = TRUE, colwave = "darkgreen")
+```
+
+#Creating dynamic spectrogram of RVBU call
+```{r}
+RVBU_call <- read_wave ("dynaspec/RVBU_call.wav") #your audio file- wave file
+
+scrolling_spectro(wave = RVBU_call, wl = 500, 
+              t.display = 1.7, pal = viridis, 
+              grid = FALSE, flim = c(2, 4), 
+              width = 1000, height = 500, colbg = "black",
+              res = 120, file.name = "RVBU_call.mp4", osc = TRUE, colwave = "darkgreen")
+```
+
+#This script has been adapted from https://marce10.github.io/dynaSpec/. 
+#Reference: Araya-Salas, Marcelo & Wilkins, Matthew R.. (2020), dynaSpec: dynamic spectrogram visualizations in R. R package version 1.0.0.
