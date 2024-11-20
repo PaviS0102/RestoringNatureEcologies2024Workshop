@@ -11,7 +11,7 @@ Kotian, M., Sundar, P., Sangwan, T., & Choksi, P. (2024). Passive acoustic data 
 
 **Link to the codes are openly available:**
 
-https://github.com/mayurikotian22/ RVBU-Lantana-Central-India.
+https://github.com/mayurikotian22/RVBU-Lantana-Central-India.
 
 
 
