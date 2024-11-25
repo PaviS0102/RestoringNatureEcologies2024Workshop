@@ -13,7 +13,7 @@ Kotian, M., Sundar, P., Sangwan, T., & Choksi, P. (2024). Passive acoustic data 
 
 https://github.com/mayurikotian22/RVBU-Lantana-Central-India.
 
-Please email me @pavithrasundar0102@gamil.com in case of any questions. 
+Please email me @pavithrasundar0102@gmail.com in case of any questions. 
 
 
 
